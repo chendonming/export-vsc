@@ -1,5 +1,5 @@
 {
-  "name": "export-transform",
+	"name": "export-transform",
 	"displayName": "export-transform",
 	"description": "",
 	"version": "0.0.1",
@@ -11,8 +11,12 @@
 		"Other"
 	],
 	"activationEvents": [
-        "onCommand:export-transform.transform"
+		"onCommand:export-transform.transform"
 	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/chendonming/export-vsc.git"
+	},
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
